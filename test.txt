@@ -1,0 +1,14 @@
+# Gen vs Gen plot test this is comment
+
+Set=Gen vs Gen plot 1cpu
+Name=1cpu python2
+Url=http://203.101.225.241:6543/expression/genevsgene?gene1=ENSMUSG00000006389&gene2=ENSMUSG00000028182&datasetName=Haemopedia-Mouse-RNASeq
+Name=1cpu python3
+Url=http://203.101.225.241:6544/expression/genevsgene?gene1=ENSMUSG00000006389&gene2=ENSMUSG00000028182&datasetName=Haemopedia-Mouse-RNASeq
+
+
+Set=Gen vs Gen plot 8cpu
+Name=8cpu python2 
+Url=http://172.26.134.69:6543/expression/genevsgene?gene1=ENSMUSG00000006389&gene2=ENSMUSG00000028182&datasetName=Haemopedia-Mouse-RNASeq
+Name=8cpu python3
+Url=http://172.26.134.69:6544/expression/genevsgene?gene1=ENSMUSG00000006389&gene2=ENSMUSG00000028182&datasetName=Haemopedia-Mouse-RNASeq

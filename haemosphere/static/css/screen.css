@@ -1,0 +1,381 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	color:#666;
+}
+
+a:link, a:visited { color:#6699ff; text-decoration: None; }
+a:hover	{ color: #ffcc66; }
+
+h2 { color:#336699; }
+h1.marquee {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 0 24px 0;
+    color: #aaa;
+}
+
+p {
+	line-height: 140%;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 95%; /*1100px;*/
+}
+
+#content {
+	width: inherit;  /*1020px;*/
+	margin: 0 auto;
+	xmargin-bottom: -20px;
+	xheight: 1000px;
+	background: white;
+}
+
+#footer {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    font-size: 11px;
+    color: #ccc;
+}
+
+#footer a {
+    color: #999;
+}
+
+#banner {
+	margin: 0 auto;
+	width: 95%; /*1020px;*/
+	height: 100px;
+	background: #fff;
+
+}
+
+#shadow {
+	height: 10px;
+	background: url("/images/banner_shadow.gif") repeat-x ;
+	margin-bottom: 20px;
+}
+
+div.tooltipDiv {
+  position: absolute;           
+  font: 12px sans-serif;        
+  background: #edf0d3;   
+  border: 0px;      
+  pointer-events: none;
+  padding:10px; 
+  text-align:left;
+}
+
+/* BANNER CONTENT STYLES */
+
+#logo {
+	margin-left: 20px;
+	float: left;
+}
+
+
+/* SEARCH - LOGOUT TOOL BAR */
+
+#tools {
+	float: right;
+	font-size: 12px;
+	margin: 32px 20px;
+}
+
+#tools form {
+	display: inline-block;
+}
+
+#tools form input {
+	text-align: right;
+	color: #ccc;
+	width: 120px;
+	border: solid 1px #ddd;
+	padding-right: 6px;
+}
+
+#tools a {
+	color: #666;
+}
+
+#tools a:hover {
+	color:#ffcc66;
+}
+
+span.dot {
+	vertical-align: 10%;
+	margin: 0 5px;
+	color: rgb(255,204,102); /* highlight yellow */
+}
+
+.link-like:hover {
+    text-decoration: underline;
+}
+
+/* -----------------------------------------------------
+tables containing data
+----------------------------------------------------- */
+table.dataTable {
+	margin-top: 20px;
+	border-spacing: 0px;
+	border-top: 1px solid #e6e6e6;
+}
+
+table.dataTable	thead tr {
+	background-color: #d0ddf5;
+/*	display: block; */
+}
+
+table.dataTable thead th {
+	padding: 6px;
+	font-weight:normal;
+}
+
+table.dataTable	thead th, 
+table.dataTable tbody td {
+	width: 200px;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+table.dataTable	thead th:last-child {
+	border-right: 1px solid #e6e6e6;
+}
+
+table.dataTable tbody td:last-child {
+	width: 184px;
+	border-right: 1px solid #e6e6e6;
+}
+	
+table.dataTable thead th.sorting_asc, 
+table.dataTable thead th.sorting_desc {
+	background-color: #dedbe6;
+}
+	
+table.dataTable tbody {
+/*	display: block; */
+	height: 500px; /* overwrite if needed */
+	overflow: auto;
+}
+
+table.dataTable tbody td {
+	padding: 5px;
+	font-size: 12px;
+	color: #666666;
+}
+
+table.dataTable tfoot {
+	flex-shrink: 0;
+/* 	display: inline-block; */
+}
+
+table.dataTable tfoot tr {
+/* 	display: flex; */
+}
+
+table.dataTable tfoot td {
+/* 	width: 100%; */
+/* 	display: inline-block; */
+	border-top: 1px solid #e6e6e6;
+}
+
+table.dataTable.no-footer {
+	border-bottom: none;
+}
+
+table.smallTable {
+	margin-top: 10px;
+	width: 100%;
+	border-right: 1px solid #e6e6e6;
+}
+table.smallTable td {
+	padding: 5px;
+	border-left: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 12px;
+	color: #666666;
+}
+table.smallTable thead tr {
+	background-color: #d0ddf5;
+}
+table.smallTable thead th {
+	padding: 6px;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	font-weight:normal;
+}
+table.smallTable thead th.sorting_asc, table.smallTable thead th.sorting_desc {
+	background-color: #dedbe6;
+}
+
+/* -----------------------------------------------------
+For angular smart-table (http://lorenzofox3.github.io/smart-table-website/)
+----------------------------------------------------- */
+.st-sort-ascent:before{
+    content: '\25B2';
+}
+
+.st-sort-descent:before{
+    content: '\25BC';
+}
+
+.st-selected{
+    background: #216eff !important;
+    color: white !important;
+}
+
+.pagination {
+    display:inline-block;
+}
+
+.pagination>li {
+    display:inline
+}
+
+.pagination>li>a,.pagination>li>span {
+    position:relative;
+    float:left;
+    padding:6px 12px;
+    margin-left:-1px;
+    line-height:1.42857143;
+    text-decoration:none;
+    background-color:#fff;
+    border:1px solid #ddd
+}
+
+.pagination>li:first-child>a,.pagination>li:first-child>span {
+    margin-left:0;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px
+}
+
+.pagination>li:last-child>a,.pagination>li:last-child>span {
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px
+}
+
+.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus {
+    color:#ffa483;
+    background-color:#eee;
+    border-color:#ddd
+}
+
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus {
+    z-index:2;
+    color:#fff;
+    cursor:default;
+    background-color:#ffa483;
+    border-color:#ffa483;
+}
+
+.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus {
+    color:#777;
+    cursor:not-allowed;
+    background-color:#fff;
+    border-color:#ddd
+}
+
+.pagination-lg>li>a,.pagination-lg>li>span {
+    padding:10px 16px;
+    font-size:18px
+}
+
+.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span {
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px
+}
+
+.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span {
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px
+}
+
+.pagination-sm>li>a,.pagination-sm>li>span {
+    padding:5px 10px;
+    font-size:12px
+}
+
+.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span {
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px
+}
+
+.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span {
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px
+}
+
+/* -----------------------------------------------------
+Classes used for modal dialog. See http://jsbin.com/aDuJIku/2/edit
+----------------------------------------------------- */
+.ng-modal-overlay {
+  /* A dark translucent div that covers the whole screen */
+  position:fixed;
+  z-index:9999;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#fff;
+  opacity: 0.6;
+}
+.ng-modal-dialog {
+  /* A centered div above the overlay with a box shadow. */
+  z-index:10000;
+  position: fixed;
+  width: 50%; /* Default */
+
+  /* Center the dialog */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+
+  background-color: #fff;
+  box-shadow: 4px 4px 80px #000;
+}
+.ng-modal-dialog-content {
+  padding:10px;
+  text-align: left;
+}
+.ng-modal-close {
+  position: fixed;
+  top: 3px;
+  right: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 120%;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'arial', 'sans-serif';
+}
+
+/* -----------------------------------------------------
+For axes on plots
+----------------------------------------------------- */
+.axis, .frame {
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  stroke: #cfcfcf;
+  stroke-width: 1px;
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  stroke: #cfcfcf;
+  stroke-width: 1px;
+  fill: none;
+}
+
+.axis text {
+  font-size: 11px;
+  color: #cfcfcf;
+}

@@ -1,0 +1,30 @@
+name: haemosphere
+channels:
+  - defaults
+dependencies:
+  - itsdangerous=1.1.0
+  - mako
+  - nose  
+  - plotly
+  - python=3.6
+  - selenium=3.141.0
+  - scipy
+  - sqlalchemy
+  - pygments
+  - waitress=1.1.0
+  - r
+  - r-base  
+  - unidecode
+  - transaction=2.4.0
+  - bioconductor-limma
+  - bioconductor-edger
+  - chardet
+  - pip:
+    - rpy2==3.4.5
+    - pyramid-beaker==0.8
+    - pyramid-debugtoolbar==4.9
+    - pyramid-mailer==0.15.1
+    - pyramid-tm==2.4
+    - zope.sqlalchemy==1.6
+    - pyramid==1.5.7
+#    - git+ssh://git@github.com/WEHI-ResearchComputing/genedataset.git

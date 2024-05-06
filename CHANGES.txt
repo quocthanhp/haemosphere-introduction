@@ -1,0 +1,180 @@
+[to do list]
++ Add back button to expression profile page.
++ Add venn diagram page.
++ Fix lineage colours on MDS plot to be the same as defined for haemopedia.
++ Lineage specific gene signatures?
++ How to compare gene signatures of user's own data to atlas for making cell type comparisons.
++ Add show expression for all datasets feature (& all celltypes for a geneset).
++ Add link to OMIM.
++ Incorporate dataset metadata entry tables.
++ Implement versioning of analysis for reproducibility.
++ Home page to contain news.
++ Allow geneset filtering based on low expression.
+
+# Version info should be in the following format. If so, the controller code will pick up the latest notes and display them.
+# Version number should start with a number, and notes should start with '- '.
+# Having [private] or [public] will show this item only on the corresponding server. dev will show everything.
+
+
+4.0 (2015-10-20)
+---
+- Major release with reconstructed code to get it ready for publication. Many changes have been made from previous version.
+- Downloading dataset files can be done faster and without zipping by selecting the type of file needed.
+- You can download figures as pdf for print quality.
+- Published datasets are now accessible without being a registered user.
+- MDS plot has a distance line which is visible when a single point is selected. Use this to see exactly which points are closest.
+- Axes labels of MDS plot now correctly reflect selected dimensions.
+- Fixed a bug where search by uploading genes didn't work with gene ids properly.
+- Gene set page now has a help icon for some tips on using the page and help on hover for most links.
+- Gene set page now has Links column to handle all external links such as Ensembl, Entrez, OMIM.
+- Keyword search and gene upload has been combined on the search page since they more or less performed the same way.
+- About and search pages have improved layout to fit better on narrower browser windows.
+- Fixed a bug where heatmap would return internal server error if no expression profile could be found for any of the genes in the dataset.
+
+4.1 (2015-11-06)
+---
+- Fixed a bug where a gene with multiple probes wasn't showing all the probes.
+- [public] First version to be accessible by the public. Note that haemopedia is not available at this stage, until manuscript submission.
+- Dataset analysis page refreshes without using run button.
+- Added favicon.
+
+4.2 (2015-11-13)
+---
+- Added symbols on gene set page for accessing various functions to make them more obvious.
+- Exact matching now is possible on the search page.
+- Gene set page now has checkboxes for manually selecting individual genes. This can be used to create a new gene set with modified gene list.
+
+4.3 (2015-12-04)
+---
+- Fixed a bug on heatmap page where changing sample group did not change the selector after page refresh.
+- Fixed a bug on heatmap page where selecting surface_markers in the sample group caused an error.
+- Gene set name truncates after 50 characters (followed by ellipses) if it's too long on the Gene page (hovering will still show the full name).
+- R code used by differential expression analysis is available for viewing on Differential Expression Search page.
+- haemopedia dataset has been split into haemopedia-plus (contains non-haematopoietic cells) and haemopedia.
+
+4.4 (2015-12-10)
+---
+- Downloading the pdf of expression profile plot now uses correct font (sans-serif), however this still does not seem to work on Firefox (works in Chrome).
+- Correlation analysis now returns a gene set which is already sorted by correlation value (highest to lowest).
+- Differential expression analysis now returns a gene set which is already sorted by logFC.
+- [private] Fixed a bug in heatmap where it wasn't working for rna-seq datasets.
+- Fixed a bug in heatmap where it wasn't correctly selecting the dataset chosen.
+- Improved speed of loading each page.
+
+4.5 (2016-02-04)
+---
+- Updated gene annotation using the latest sources from Ensembl, Entrez and MGI.
+- [private] Fixed numerous bugs on the HiltonLab sample data page.
+- [private] CSL ScoreGenes page now has a search function.
+- Datasets page now has a version column. This is an internal dataset version used by Haemosphere.
+- Datasets page now has the help icon for showing tips.
+- dmap dataset updated to v1.2: now has cell lineage and maturity values assigned to each cell type.
+- haemopedia updated to v2.6 and haemopedia-plus updated to v2.5: updated some sample data.
+
+4.6 (2016-02-10)
+---
+- Heatmap rendering has now changed: columns are now in the same order as dataset rather than clustered, and z scores are used to cluster and colour rather than expression values.
+- Heatmap page has more detailed explanations on how it works.
+- haemopedia updated to v2.7 and haemopedia-plus updated to v2.6: updated sample metadata by improving ordering of cell types shown.
+
+4.6.1 (2016-03-03)
+---
+- Fixed a bug with dataset download function.
+
+4.7 (2016-05-05)
+---
+- Added new datasets "rapin" and "gxcommons".
+- [private] Added new dataset "hiltonlab-rnaseq-plus".
+- Datasets can now be selected so that not all datasets are shown - this works like a user preference for a registered user.
+- Datasets can now be ordered - works as a user preference for a registered user.
+- Dataset subsets can now be created from samples page. This subset will be stored under a registered user.
+- Improved performance of each page that uses a list of dataset attributes.
+
+4.7.1 (2016-06-02)
+---
+- Dataset analysis page now shows the same preset colours for sample group items if available, rather than using generic colours.
+- Dataset analysis page now shows items in the table in the same order as seen in expression profile graph.
+- Barplot colours on the heatmap page now uses the same preset colours for the sample group items if available.
+- [private] hiltonlab-rnaseq-plus dataset has been updated, with extra 'group' column available from sample data now, as well as removing some bad quality samples.
+
+4.7.2 (2016-07-21)
+---
+- [public] haemopedia page is now publicly accessible, as the manuscript will be published online soon.
+- The cause of occasional server crashes has been identified and fixed, so the server should be a lot more stable now.
+
+4.7.3 (2016-09-02)
+---
+- save figure on expression page now uses png instead of pdf, because the code behind png creation is more reliable.
+- Reference to published paper has been updated.
+
+4.7.4 (2016-10-26)
+---
+- Added the "High Expression Search" function on the search page. This can be used to find genes highly expressed in selected sample group.
+- Pubmed id has been added to Haemopedia datasets.
+- [private] Lab samples page has been updated, with an upgrade of the database behind the scene.
+
+4.7.5 (2017-05-30)
+---
+- Fixed a bug where barplot of expression was showing averages over non-zero values only for each bar.
+- Multiple values with zero values at a bar will now be shown scattered next to each other instead of on top of each other.
+- [private] Added CSL-SLE60 dataset.
+
+4.7.6 (2018-01-04)
+—--
+- Self-registration temporarily disabled due to email issues.
+
+4.9 (2018-06-20)
+---
+- Removed the login requirement for differential and high expression searches.
+- Added a multi-species gene expression plot, where you can see expression of a gene and its orthologue across all datasets.
+- Fixed email problem, which affected self-registration and password management.
+- Added new datasets.
+- Changed the front page to include News page and made it the first landing page.
+- Fixed a bug where DE analysis didn't work without a useful message when there were no replicate samples.
+- Changed ordering of gene set that comes back after DE analysis so that it's on absolute logFC.
+- Changed ordering of datasets.
+- Renamed some datasets.
+- Geneset page has a new "Expression" column which has links to expression profiles including multi-species.
+- Viewing expression profile for a gene immediately after DE or high expression analysis should select corresponding dataset as default.
+
+4.9.1 (2018-08-02)
+---
+- Changed the way dataset attributes are fetched to greatly speed up page loading times.
+- A new feature, gene vs gene plot, has been added.
+- Multi-species plot is more compact, with less datasets shown as default. The user can select datasets.
+- Multi-species plot can show legend and each plot can now be saved as a static image.
+- Select bar is now used for functions performed on each row of the gene table and for functions on expression profile page.
+
+4.9.2 (2018-08-08)
+---
+- High expression search now filers lowly expressed and variant genes before scoring.
+- Fixed a bug where heatmap wasn't working at all.
+- Improved image download for multi-species plot.
+- Fixed a bug where sample selection for dataset subsetting was available without a login.
+- Updated help text in various places.
+
+4.9.3 (2018-09-07)
+---
+- Fixed a bug where gene vs gene changed both genes if currently showing two same genes.
+- Fixed a bug where saving a dataset subset didn't work and caused the same dataset to be inaccessible.
+
+4.9.4 (2018-09-25)
+---
+- Added tour style help on some pages which can be activated by clicking on the question mark symbol.
+- RNA-Seq datasets have tpm instead of rpkm values now.
+- Downloading R objects as a file in just after differential expression analysis is now possible (Differential Expression Search -> view the R script -> download R objects).
+- Datasets without ordering defined for celltype will now use cell lineage to order columns in heatmaps.
+
+4.9.5 (2019-02-07)
+---
+- Updated citation information for publication of Haemoepdia RNA-Seq and new Haemosphere features in Nucl. Acids Res. https://doi.org/10.1093/nar/gky1020
+- Corrected Haemopedia Microarray dataset downloads to just be the probes that are supported by our ensembl annotation
+
+5.0 (2021-10-27)
+---
+- Upgraded Haemosphere's infrastructure from Python 2.x to Python 3.x
+- Migrated Haemosphere to different server infrastructure
+
+5.0.1 (2021-10-28)
+---
+- Corrected gene symbols for Septin, Marchf and Mtarc gene families

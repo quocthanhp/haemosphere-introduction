@@ -1,0 +1,38 @@
+.modal-dialog{
+	overflow-y: initial;
+}
+
+.modal-body{
+	height: 400px;
+	overflow-y: auto;
+}
+
+
+.ng-modal-dialog {
+	position:fixed;
+	top:50%;
+}
+
+.ng-modal-overlay {
+	position:fixed;
+}
+		
+.modal-footer {
+	float:right;
+	margin:20px;
+}
+
+input.textbox, select.selectbox {
+	width: 80%;
+	height: 20px;
+	float:left;
+	margin:10px;
+}
+
+label.field {
+	text-align: right;
+	width: 100px;
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+}

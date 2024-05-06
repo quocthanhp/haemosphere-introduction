@@ -1,0 +1,747 @@
+Starting server in PID 18175.
+Serving on http://0.0.0.0:6544
+2018-06-14 12:10:13,780 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 12:10:30,312 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 12:10:35,702 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 12:12:52,170 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 12:14:09,131 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 12:14:09,512 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 12:14:13,072 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 12:14:19,508 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 13:16:57,905 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 13:17:03,227 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 13:19:03,291 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 13:31:30,303 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:31:34,868 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:31:38,217 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:31:41,065 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:31:45,568 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:31:49,862 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:36:40,149 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:41:00,234 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:41:02,879 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:41:15,036 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:44:14,580 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:51:10,392 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:51:16,088 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:51:20,694 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:51:32,333 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:51:34,348 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:51:37,288 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 13:54:54,012 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 13:54:54,422 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 13:54:59,100 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 13:55:00,344 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 13:55:03,403 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 13:55:03,914 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 13:55:05,583 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 13:55:08,398 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 13:55:16,742 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 13:55:51,674 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 13:55:52,069 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 13:56:02,602 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 13:56:02,995 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 13:56:05,312 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 13:56:12,490 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 13:56:49,172 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 13:56:49,555 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 13:56:52,103 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 13:57:06,304 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 14:09:34,707 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 14:09:49,857 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:10:13,848 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:16:50,626 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 14:17:00,854 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:18:33,292 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:19:09,306 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 14:33:14,987 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:33:15,172 ERROR [waitress][waitress] Exception when serving /expression/show
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 54, in showExpression
+    matchingDatasets = [ds for ds in datasets(request) if ds.species==gs.species()]
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/hsdataset_views.py", line 116, in datasets
+    datasets = [hsdataset.HSDataset(inv[1]) for inv in inventory]
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/mutex.py", line 12, in access_mutex
+    return func(*args, **kwargs)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/models/hsdataset.py", line 118, in __init__
+    super(HSDataset, self).__init__(pathToHDF)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/genedataset/dataset.py", line 214, in __init__
+    self._attributes = pandas.read_hdf(self.filepath, '/series/attributes')
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/io/pytables.py", line 370, in read_hdf
+    return store.select(key, auto_close=auto_close, **kwargs)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/io/pytables.py", line 699, in select
+    raise KeyError('No object named %s in the file' % key)
+KeyError: 'No object named /series/attributes in the file'
+2018-06-14 14:33:17,461 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:33:17,637 ERROR [waitress][waitress] Exception when serving /expression/show
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 54, in showExpression
+    matchingDatasets = [ds for ds in datasets(request) if ds.species==gs.species()]
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/hsdataset_views.py", line 116, in datasets
+    datasets = [hsdataset.HSDataset(inv[1]) for inv in inventory]
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/mutex.py", line 12, in access_mutex
+    return func(*args, **kwargs)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/models/hsdataset.py", line 118, in __init__
+    super(HSDataset, self).__init__(pathToHDF)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/genedataset/dataset.py", line 214, in __init__
+    self._attributes = pandas.read_hdf(self.filepath, '/series/attributes')
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/io/pytables.py", line 370, in read_hdf
+    return store.select(key, auto_close=auto_close, **kwargs)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/io/pytables.py", line 699, in select
+    raise KeyError('No object named %s in the file' % key)
+KeyError: 'No object named /series/attributes in the file'
+2018-06-14 14:33:23,162 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 14:33:23,192 ERROR [waitress][waitress] Exception when serving /datasets/show
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/hsdataset_views.py", line 162, in showDatasets
+    allDataSets = getAllUserDsAttr(user, request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/hsdataset_views.py", line 40, in getAllUserDsAttr
+    datasets = [hsdataset.HSDataset(inv[1]) for inv in inventory]
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/mutex.py", line 12, in access_mutex
+    return func(*args, **kwargs)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/models/hsdataset.py", line 118, in __init__
+    super(HSDataset, self).__init__(pathToHDF)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/genedataset/dataset.py", line 214, in __init__
+    self._attributes = pandas.read_hdf(self.filepath, '/series/attributes')
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/io/pytables.py", line 370, in read_hdf
+    return store.select(key, auto_close=auto_close, **kwargs)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/io/pytables.py", line 699, in select
+    raise KeyError('No object named %s in the file' % key)
+KeyError: 'No object named /series/attributes in the file'
+2018-06-14 14:34:31,156 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 14:35:40,931 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 14:36:10,475 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 14:39:57,354 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 14:41:23,858 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 14:41:29,670 INFO  [haemosphere.views.views][waitress] usage: None /datasets/samples
+2018-06-14 14:43:57,131 INFO  [haemosphere.views.views][waitress] usage: None /datasets/samples
+2018-06-14 14:45:04,516 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 14:49:54,210 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 14:50:00,117 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 14:51:50,122 INFO  [haemosphere.views.views][waitress] usage: None /
+2018-06-14 14:51:56,824 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 14:52:03,512 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 14:52:10,920 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 14:52:41,649 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 14:53:07,747 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 14:53:08,146 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 14:53:10,366 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:53:15,947 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 14:53:16,158 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 14:53:25,747 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:53:31,148 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 14:53:31,368 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 14:53:36,881 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 14:53:37,270 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 14:53:40,705 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 14:53:45,291 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 14:53:45,501 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 14:59:58,345 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:00:00,158 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:00:00,673 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:00:29,916 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:00:41,309 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:00:41,528 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:00:46,067 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:00:46,280 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:01:22,843 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:01:54,258 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:01:54,465 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:06:30,770 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 15:13:10,926 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 15:15:30,814 INFO  [haemosphere.views.views][waitress] usage: None /datasets/show
+2018-06-14 15:15:35,065 INFO  [haemosphere.views.views][waitress] usage: None /datasets/analyse
+2018-06-14 15:15:35,271 ERROR [waitress][waitress] Exception when serving /datasets/analyse
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/hsdataset_views.py", line 198, in analyseDataset
+    row[sampleGroup] = sampleTable.at[sampleId,sampleGroup]# if pandas.notnull(sampleTable.at[sampleId,sampleGroup]) else ''
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/core/indexing.py", line 1869, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/core/frame.py", line 1981, in _get_value
+    series = self._get_item_cache(col)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/core/generic.py", line 1842, in _get_item_cache
+    values = self._data.get(item)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/core/internals.py", line 3843, in get
+    loc = self.items.get_loc(item)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pandas-0.22.0-py2.7-macosx-10.6-x86_64.egg/pandas/core/indexes/base.py", line 2527, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 117, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 139, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1265, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1273, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Celltype'
+2018-06-14 15:15:42,114 INFO  [haemosphere.views.views][waitress] usage: None /datasets/samples
+2018-06-14 15:16:01,271 INFO  [haemosphere.views.views][waitress] usage: None /datasets/samples
+2018-06-14 15:16:19,166 INFO  [haemosphere.views.views][waitress] usage: None /datasets/samples
+2018-06-14 15:16:33,997 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 15:16:34,389 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 15:16:39,152 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:16:44,513 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:16:52,013 INFO  [haemosphere.views.views][waitress] usage: None /search/keyword
+2018-06-14 15:16:52,393 INFO  [haemosphere.views.views][waitress] usage: None /geneset/current
+2018-06-14 15:16:55,000 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:17:01,582 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:17:04,007 ERROR [waitress][waitress] Exception when serving /expression/show
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 107, in showExpression
+    # dictionary, it implies that colourBy can't be done.
+AttributeError: 'list' object has no attribute 'values'
+2018-06-14 15:17:16,200 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:17:33,044 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:17:39,493 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:17:52,699 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:18:00,229 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:18:38,474 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:18:46,051 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:19:30,474 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:19:35,087 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:19:37,381 ERROR [waitress][waitress] Exception when serving /expression/show
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 107, in showExpression
+    # dictionary, it implies that colourBy can't be done.
+AttributeError: 'list' object has no attribute 'values'
+2018-06-14 15:19:46,038 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:19:52,568 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:19:54,862 ERROR [waitress][waitress] Exception when serving /expression/show
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 107, in showExpression
+    # dictionary, it implies that colourBy can't be done.
+AttributeError: 'list' object has no attribute 'values'
+2018-06-14 15:29:01,283 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:29:09,588 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:30:48,558 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:30:50,034 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:30:51,097 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:31:08,994 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:31:13,869 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:31:17,632 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:31:17,846 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:31:37,839 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:31:38,083 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:32:04,791 INFO  [haemosphere.views.views][waitress] usage: None /expression/show
+2018-06-14 15:32:07,431 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:32:07,611 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:32:13,283 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:32:13,474 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:33:02,286 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:33:02,484 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'
+2018-06-14 15:35:08,255 INFO  [haemosphere.views.views][waitress] usage: None /expression/multispecies
+2018-06-14 15:35:08,437 ERROR [waitress][waitress] Exception when serving /expression/multispecies
+Traceback (most recent call last):
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/channel.py", line 338, in service
+    task.service()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 169, in service
+    self.execute()
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/waitress-1.1.0-py2.7.egg/waitress/task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 242, in __call__
+    response = self.invoke_subrequest(request, use_tweens=True)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 217, in invoke_subrequest
+    response = handle_request(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 171, in tm_tween
+    reraise(*exc_info)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid_tm-2.2-py2.7.egg/pyramid_tm/__init__.py", line 136, in tm_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/tweens.py", line 21, in excview_tween
+    response = handler(request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/router.py", line 163, in handle_request
+    response = view_callable(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 355, in rendered_view
+    result = view(context, request)
+  File "/Users/degraaf/anaconda/envs/haemosphere/lib/python2.7/site-packages/pyramid-1.5.7-py2.7.egg/pyramid/config/views.py", line 501, in _requestonly_view
+    response = view(request)
+  File "/Users/degraaf/haemosphere/haemosphere/haemosphere/views/expression_views.py", line 190, in showExpressionMultiSpecies
+    ["B Cell Lineage"],
+AttributeError: 'NoneType' object has no attribute 'sampleGroupColours'

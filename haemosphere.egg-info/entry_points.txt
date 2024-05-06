@@ -1,0 +1,7 @@
+      [paste.app_factory]
+      main = haemosphere:main
+      [console_scripts]
+      initdb = initdb:main
+      migrate_hdf2db = migrate_hdf2db:main
+      init_testdata = init_testdata:main
+      
