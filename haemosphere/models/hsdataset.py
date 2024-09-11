@@ -7,7 +7,7 @@ import pandas
 import genedataset.dataset
 import haemosphere.views.mutex as mtex
 import six
-
+from .cache import LRUCache
 
 def createDatasetFile(destDir, **kwargs):
 	"""
@@ -112,26 +112,43 @@ class HSDataset(genedataset.dataset.Dataset):
 			/series/probeIdsFromGeneId
 			/series/geneIdsFromProbeId			
 	"""
-	
+	_cache = LRUCache()# This is a class-level attribute
+
+	def __new__(cls, pathToHDF):
+        # Check if the object is already cached
+		cached_instance = cls._cache.get(pathToHDF)
+		if cached_instance:
+			return cached_instance
+        
+		instance = super(HSDataset, cls).__new__(cls)
+		cls._cache.set(pathToHDF, instance)
+		return instance
 	
 	@mtex.mutual_exclusion
 	def __init__(self, pathToHDF):
+		if hasattr(self, 'initialised') and self.initialised:
+			return
+
 		super(HSDataset, self).__init__(pathToHDF)
+
 		#print("path", pathToHDF)
 		# '/dataframe/sampleDistances': calculated pairwise pearson correlation distance matrix
 		self._sampleDistances = pandas.read_hdf(self.filepath,'/dataframe/sampleDistances')
 		self._sampleGroupColours = pandas.read_hdf(self.filepath, '/series/sampleGroupColours')
 		self._sampleGroupOrdering = pandas.read_hdf(self.filepath, '/series/sampleGroupOrdering')
 		self._sampleGroupsDisplayed = pandas.read_hdf(self.filepath, '/series/sampleGroupsDisplayed')
-		#print("SampelDistnce", self._sampleDistances)
-		##print("samplegroupordering",self._sampleGroupOrdering)
-		#print("samplegropus",self._sampleGroupsDisplayed)
+		# #print("SampelDistnce", self._sampleDistances)
+		# ##print("samplegroupordering",self._sampleGroupOrdering)
+		# #print("samplegropus",self._sampleGroupsDisplayed)
 
-		#print(pandas.read_hdf(self.filepath, '/dataframe/sampleDistances'))
-		# Added a new attribute key 'parent', to deal with dataset subsets. Use this code to be backwards compatible with
-		# datasets created before this key was introduced.
+		# #print(pandas.read_hdf(self.filepath, '/dataframe/sampleDistances'))
+		# # Added a new attribute key 'parent', to deal with dataset subsets. Use this code to be backwards compatible with
+		# # datasets created before this key was introduced.
+		
 		self.parent = self._attributes.get('parent')
-		#print(self.parent)
+		# #print(self.parent)
+		self.initialised = True
+
 	def sampleGroups(self, returnType=None):
 		"""
 		Return a list of sample group names eg: ["celltype","tissue"]. Override base class method

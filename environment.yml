@@ -2,6 +2,7 @@ name: haemosphere
 channels:
   - defaults
 dependencies:
+  - pip
   - itsdangerous=1.1.0
   - mako
   - nose  
