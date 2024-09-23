@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 import re, os
 import logging
 import six
+import time
 
 log = logging.getLogger(__name__)
 
@@ -202,12 +203,17 @@ def searchExpression(request):
         r_object_filepath = None
 
     df = ds.expressionMatrix(datatype="counts")
-    topTable = rfunctions.topTable(df, ds.sampleGroupItems(sampleGroup=ds.replicateSampleGroup(), duplicates=True),
+    log.debug("Start R func\n")
+    start = time.time()
+    topTable = rfunctions.topTable(selectedDatasetName, df, ds.sampleGroupItems(sampleGroup=ds.replicateSampleGroup(), duplicates=True),
                                    ds.sampleGroupItems(sampleGroup=sampleGroup, duplicates=True), \
                                    sampleGroupItem1, sampleGroupItem2, not ds.isRnaSeqData, filterMinCpm=filterMinCpm,
                                    filterMinExpressedSamples=minFilterSample, normalizationMethod=normalization,
                                    saveToFile=r_object_filepath)
+    end = time.time()
+    log.debug(f"R func ends in {end - start}\n")
     if topTable is None:
+        log.debug(f"R func ends in {end - start}\n")
         return {'error': "topTable error"}
 
     # Create a geneset with gene ids coming from topTable - match gene ids to probes for microarray data.

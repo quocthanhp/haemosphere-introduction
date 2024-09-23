@@ -9,6 +9,9 @@ import haemosphere.views.mutex as mtex
 import six
 from .cache import LRUCache
 
+import logging
+log = logging.getLogger(__name__)
+
 def createDatasetFile(destDir, **kwargs):
 	"""
 	Based on genedataset.dataset.createDatasetFile() function, this function creates an 
@@ -118,13 +121,14 @@ class HSDataset(genedataset.dataset.Dataset):
         # Check if the object is already cached
 		cached_instance = cls._cache.get(pathToHDF)
 		if cached_instance:
+			# log.debug(f"******File name is {pathToHDF} from cache*******\n")
 			return cached_instance
         
 		instance = super(HSDataset, cls).__new__(cls)
 		cls._cache.set(pathToHDF, instance)
 		return instance
 	
-	@mtex.mutual_exclusion
+	# @mtex.mutual_exclusion
 	def __init__(self, pathToHDF):
 		if hasattr(self, 'initialised') and self.initialised:
 			return

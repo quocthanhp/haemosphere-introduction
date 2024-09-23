@@ -19,17 +19,17 @@ class LRUCache:
         with self.lock:  # Ensure only one thread can access the cache at a time
             if key in self.cache:
                 cached_obj = self.cache[key]
-                if not cached_obj.is_expired():
+                # if not cached_obj.is_expired():
                     # Move the accessed key to the end (most recently used)
-                    self.cache.move_to_end(key)
-                    return cached_obj.value  
-                else:
+                self.cache.move_to_end(key)
+                return cached_obj.value  
+                # else:
                     # If the cached item is expired, remove it from the cache
-                    del self.cache[key]
+                    # del self.cache[key]
             return None
 
     def set(self, key, value, ttl=TTL):
-        with self.lock:  # Ensure only one thread can modify the cache at a time
+        with self.lock:  
             if key in self.cache:
                 # Update the existing item and move it to the end
                 self.cache.move_to_end(key)
@@ -44,8 +44,8 @@ class LRUCache:
 class CachedObject:
     def __init__(self, value, ttl):
         self.value = value
-        self.expired_at = time.time() + ttl  # Set the expiration time based on TTL
+        # self.expired_at = time.time() + ttl  # Set the expiration time based on TTL
 
-    def is_expired(self):
-        # Check if the current time is greater than the expiration time
-        return time.time() > self.expired_at
+    # def is_expired(self):
+    #     # Check if the current time is greater than the expiration time
+    #     return time.time() > self.expired_at

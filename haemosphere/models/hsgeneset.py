@@ -1,12 +1,25 @@
 import pandas
 
 import genedataset.geneset
-
+import haemosphere.views.mutex as mtex
 	
 class HSGeneset(genedataset.geneset.Geneset):
+	# _cache = LRUCache()# This is a class-level attribute
 
-	#def __init__(self, name='unnamed', description=''):
-	#	super(HSGeneset, self).__init__(name=name, description=description)
+	# def __new__(cls):
+    #     # Check if the object is already cached
+	# 	cached_instance = cls._cache.get(pathToHDF)
+	# 	if cached_instance:
+	# 		log.debug(f"******File name is {pathToHDF} from cache*******\n")
+	# 		return cached_instance
+        
+	# 	instance = super(HSDataset, cls).__new__(cls)
+	# 	cls._cache.set(pathToHDF, instance)
+	# 	return instance
+
+	@mtex.mutual_exclusion
+	def __init__(self, name='unnamed', description=''):
+		super(HSGeneset, self).__init__(name=name, description=description)
 				
 	def setScore(self, score):
 		"""

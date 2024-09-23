@@ -7,11 +7,18 @@ start with a 'number': eg. '6hrFXII' column will turn into 'X6hrFXII'.
 # which suggested this statement before rpy2 import and it works!
 from __future__ import absolute_import
 import readline
+import pyarrow.feather as feather
 
 import pandas, sys
+import os
 
 from rpy2.robjects import pandas2ri, r, globalenv
 pandas2ri.activate()
+
+
+import logging
+log = logging.getLogger(__name__)
+
 
 topTableString = """\
 # Return a matrix resembling limma's topTable function.
@@ -48,13 +55,18 @@ topTableString = """\
 # data.frame with columns ("features","logFC","adjPVal","AveExpr").
 # 		matrix(0,0,0) if something went wrong.
 #
-haemosphere.topTable = function(x, replicateGroups, groups, group1, group2, microarray=T, 
+haemosphere.topTable = function(file, replicateGroups, groups, group1, group2, microarray=T, 
 	filterMinCPM=0.5, filterMinExpressedSamples=2, normalizationMethod='TMM', adjPCutoff=0.05, minRows=50)
 {	
 	if (microarray) library(limma)
 	else library(edgeR)
 	options(digits=4)
 
+	# print("reading")
+	library(arrow)
+	# print("load")
+	x <- read_feather(file)
+	# print("x is read")
 	# find indices of group1 and group2 from groups vector
 	group1Indices = which(groups==group1)
 	group2Indices = which(groups==group2)
@@ -142,8 +154,10 @@ haemosphere.topTableWrapper = function(x, replicateGroups, groups, group1, group
 								adjPCutoff=adjPCutoff, minRows=minRows))
 }
 """
-    
-def topTable(dataframe, replicateGroups, groups, group1, group2, isMicroarray, filterMinCpm=0.5, 
+
+FEATHER_PATH = "/haemosphere/haemosphere/models/feather"
+
+def topTable(selectedDatasetName, dataframe, replicateGroups, groups, group1, group2, isMicroarray, filterMinCpm=0.5, 
 			 filterMinExpressedSamples=2, normalizationMethod='TMM', saveToFile=''):
 	"""
 	Given a pandas dataframe of microarray or rna-seq expression matrix (counts) as dataframe, run DE analysis on limma in R 
@@ -159,9 +173,21 @@ def topTable(dataframe, replicateGroups, groups, group1, group2, isMicroarray, f
 		>> print topTable(expMatrix, celltypes, celltypes, 'Meg8N', 'Meg16N', True).iloc[:10,:]
 	  
 	"""
-	globalenv["dataframe"] = dataframe
+	feather_path = f"{FEATHER_PATH}/{selectedDatasetName}.feather"
+	if os.path.exists(feather_path):
+		print(f"Feather file {feather_path} found. Reading from it.")
+        # Read the existing Feather file
+        # dataframe_from_feather = pd.read_feather(feather_path)
+	else:
+		print(f"Feather file {feather_path} not found. Writing new Feather file.")
+        # Write the Pandas DataFrame to a new Feather file
+		feather.write_feather(dataframe, feather_path, version=1)
+        # df_from_feather = df 
+
+	# globalenv["dataframe"] = dataframe
+	globalenv["feather_path"] = feather_path
 	r(topTableString)
-	result = r("haemosphere.topTableWrapper(dataframe, c('{0}'), c('{1}'), '{2}', '{3}', {4}, filterMinCPM={5}, filterMinExpressedSamples={6}, normalizationMethod='{7}', saveToFile='{8}'); "\
+	result = r("haemosphere.topTableWrapper(feather_path, c('{0}'), c('{1}'), '{2}', '{3}', {4}, filterMinCPM={5}, filterMinExpressedSamples={6}, normalizationMethod='{7}', saveToFile='{8}'); "\
 		.format("','".join(replicateGroups), "','".join(groups), group1, group2, \
 		'T' if isMicroarray else 'F', filterMinCpm, filterMinExpressedSamples, normalizationMethod, saveToFile))
 	result = result.set_index("features")
@@ -169,6 +195,8 @@ def topTable(dataframe, replicateGroups, groups, group1, group2, isMicroarray, f
 	# If dataframe has index which look like integers, result will have index which are integers! Check this.
 	if len(result)>0 and isinstance(result.index[0], int) and isinstance(dataframe.index[0], str):
 		result.index = result.index.astype(str)
+	if result is None:
+		log.debug("None Result\n")
 	return result
 
 
