@@ -10,6 +10,7 @@ pip install -r /haemosphere/requirements_3.x.txt
 pip uninstall intel-numpy --y
 MAKEFLAGS="-j"
 Rscript /haemosphere/r_packages.r
+Rscript /haemosphers/arrow.r
 pip install -e /haemosphere 
 cp /haemosphere/geneset.py /haemosphere-env/lib/python3.6/site-packages/genedataset/geneset.py 
 cp /haemosphere/dataset.py /haemosphere-env/lib/python3.6/site-packages/genedataset/dataset.py 
