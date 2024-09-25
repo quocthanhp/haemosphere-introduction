@@ -1,6 +1,7 @@
 name: haemosphere
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - pip
   - itsdangerous=1.1.0
