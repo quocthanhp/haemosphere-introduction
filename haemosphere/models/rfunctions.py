@@ -7,7 +7,6 @@ start with a 'number': eg. '6hrFXII' column will turn into 'X6hrFXII'.
 # which suggested this statement before rpy2 import and it works!
 from __future__ import absolute_import
 import readline
-import pyarrow.feather as feather
 
 import pandas, sys
 import os
