@@ -12,9 +12,9 @@ import pyarrow.feather as feather
 import pandas, sys
 import os
 
+import rpy2.robjects as ro
 from rpy2.robjects import pandas2ri, r, globalenv
 pandas2ri.activate()
-
 
 import logging
 log = logging.getLogger(__name__)
@@ -62,11 +62,8 @@ haemosphere.topTable = function(file, replicateGroups, groups, group1, group2, m
 	else library(edgeR)
 	options(digits=4)
 
-	# print("reading")
-	library(arrow)
-	# print("load")
-	x <- read_feather(file)
-	# print("x is read")
+	x <- readRDS(file)
+
 	# find indices of group1 and group2 from groups vector
 	group1Indices = which(groups==group1)
 	group2Indices = which(groups==group2)
@@ -155,7 +152,7 @@ haemosphere.topTableWrapper = function(x, replicateGroups, groups, group1, group
 }
 """
 
-FEATHER_PATH = "/haemosphere/haemosphere/models/feather"
+RDS_PATH = "/haemosphere/haemosphere/models/rds"
 
 def topTable(selectedDatasetName, dataframe, replicateGroups, groups, group1, group2, isMicroarray, filterMinCpm=0.5, 
 			 filterMinExpressedSamples=2, normalizationMethod='TMM', saveToFile=''):
@@ -173,21 +170,20 @@ def topTable(selectedDatasetName, dataframe, replicateGroups, groups, group1, gr
 		>> print topTable(expMatrix, celltypes, celltypes, 'Meg8N', 'Meg16N', True).iloc[:10,:]
 	  
 	"""
-	feather_path = f"{FEATHER_PATH}/{selectedDatasetName}.feather"
-	if os.path.exists(feather_path):
-		print(f"Feather file {feather_path} found. Reading from it.")
-        # Read the existing Feather file
-        # dataframe_from_feather = pd.read_feather(feather_path)
+	# log.debug(dataframe.columns)
+	# log.debug(dataframe.index)
+	rds_path = f"{RDS_PATH}/{selectedDatasetName}.rds"
+	if os.path.exists(rds_path):
+		print(f"RDS file {rds_path} found. Reading from it.")
 	else:
-		print(f"Feather file {feather_path} not found. Writing new Feather file.")
-        # Write the Pandas DataFrame to a new Feather file
-		feather.write_feather(dataframe, feather_path, version=1)
-        # df_from_feather = df 
+		# Save to .rds file
+		r_df = pandas2ri.py2rpy(dataframe)
+		ro.r('saveRDS')(r_df, file=rds_path)
 
-	# globalenv["dataframe"] = dataframe
-	globalenv["feather_path"] = feather_path
+	globalenv["rds_path"] = rds_path
+
 	r(topTableString)
-	result = r("haemosphere.topTableWrapper(feather_path, c('{0}'), c('{1}'), '{2}', '{3}', {4}, filterMinCPM={5}, filterMinExpressedSamples={6}, normalizationMethod='{7}', saveToFile='{8}'); "\
+	result = r("haemosphere.topTableWrapper(rds_path, c('{0}'), c('{1}'), '{2}', '{3}', {4}, filterMinCPM={5}, filterMinExpressedSamples={6}, normalizationMethod='{7}', saveToFile='{8}'); "\
 		.format("','".join(replicateGroups), "','".join(groups), group1, group2, \
 		'T' if isMicroarray else 'F', filterMinCpm, filterMinExpressedSamples, normalizationMethod, saveToFile))
 	result = result.set_index("features")
