@@ -2,7 +2,7 @@ import collections
 import threading
 import time
 
-MAX_CACHE_SIZE = 50
+MAX_CACHE_SIZE = 100
 TTL = 86400
 
 import collections

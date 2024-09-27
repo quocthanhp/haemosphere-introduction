@@ -7,6 +7,7 @@ import logging
 import six
 import time
 
+from ..models.cache import LRUCache
 log = logging.getLogger(__name__)
 
 from pyramid.view import (view_config, forbidden_view_config)
@@ -25,7 +26,6 @@ from haemosphere.models.users import User, Group
 from .user_views import currentUser
 from .hsdataset_views import datasetAttributes, datasetFromName
 from .utility import params, addGenesetToSession, currentEnv
-
 
 # Note that any global variables set here are accessible throughout application across all requests.
 
@@ -159,6 +159,7 @@ def searchKeyword(request):
     return {'search_terms': searchTerms, 'genesetSize': gs.size()}
 
 
+df_cache = LRUCache()
 # Create a Geneset instance based on diff expression
 @view_config(route_name="/search/expression", renderer="json")
 def searchExpression(request):
@@ -204,7 +205,15 @@ def searchExpression(request):
 
     df = ds.expressionMatrix(datatype="counts")
     log.debug("Start R func\n")
+
+     # Check cache
+    key = (df.shape, sampleGroup, sampleGroupItem1, sampleGroupItem2)
+    result = df_cache.get(key)
+    if result is not None:
+        return result
+
     start = time.time()
+
     topTable = rfunctions.topTable(selectedDatasetName, df, ds.sampleGroupItems(sampleGroup=ds.replicateSampleGroup(), duplicates=True),
                                    ds.sampleGroupItems(sampleGroup=sampleGroup, duplicates=True), \
                                    sampleGroupItem1, sampleGroupItem2, not ds.isRnaSeqData, filterMinCpm=filterMinCpm,
@@ -255,6 +264,8 @@ def searchExpression(request):
 
     if downloadRObjects:  # it's difficult to pass filepaths around as url parameters, so just keep this in request.session
         request.session['r_object_filepath'] = r_object_filepath
+
+    df_cache.set(key, {'genesetSize': gs.size(), 'downloadRObjects': downloadRObjects})
 
     return {'genesetSize': gs.size(), 'downloadRObjects': downloadRObjects}
 
