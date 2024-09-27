@@ -1,6 +1,5 @@
 aiohttp==3.7.4.post0
 appdirs==1.4.4
-pyarrow==6.0.1
 astroid==2.6.5
 async-timeout==3.0.1
 attrs==21.2.0
