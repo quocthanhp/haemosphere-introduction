@@ -15,7 +15,7 @@ dependencies:
   - pygments
   - waitress=1.1.0
   - r
-  - r-base==4.0 
+  - r-base 
   - unidecode
   - transaction=2.4.0
   - bioconductor-limma
