@@ -174,6 +174,12 @@ def searchExpression(request):
     sampleGroupItem2 = params(request, 'sampleGroupItem2')
     downloadRObjects = params(request, 'downloadRObjects', False)
 
+    # Check cache
+    key = (selectedDatasetName, sampleGroup, sampleGroupItem1, sampleGroupItem2)
+    result = df_cache.get(key)
+    if result is not None:
+        return result
+
     # These are only relevant for rna-seq data
     normalization = params(request, 'normalisation', 'TMM')
     filterMinCpm = float(params(request, 'filterCpm', 0.5))
@@ -205,12 +211,6 @@ def searchExpression(request):
 
     df = ds.expressionMatrix(datatype="counts")
     log.debug("Start R func\n")
-
-     # Check cache
-    key = (df.shape, sampleGroup, sampleGroupItem1, sampleGroupItem2)
-    result = df_cache.get(key)
-    if result is not None:
-        return result
 
     start = time.time()
 
