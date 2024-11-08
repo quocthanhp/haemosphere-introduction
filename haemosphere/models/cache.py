@@ -5,10 +5,6 @@ import time
 MAX_CACHE_SIZE = 100
 TTL = 86400
 
-import collections
-import threading
-import time
-
 class LRUCache:
     def __init__(self, maxsize=MAX_CACHE_SIZE):
         self.cache = collections.OrderedDict()  # Keeps track of the order of insertion/access
