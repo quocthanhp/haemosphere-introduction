@@ -19,7 +19,7 @@ class LRUCache:
                 return cached_obj.value  
             return None
 
-    def set(self, key, value, ttl=TTL):
+    def set(self, key, value):
         with self.lock:  
             if key in self.cache:
                 # Update the existing item and move it to the end
