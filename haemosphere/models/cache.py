@@ -15,7 +15,7 @@ class LRUCache:
         with self.lock:  # Ensure only one thread can access the cache at a time
             if key in self.cache:
                 cached_obj = self.cache[key]
-                self.cache.move_to_end(key)
+                self.cache.move_to_end(key) # Move the accessed key to the end (most recently used)
                 return cached_obj.value  
             return None
 
